@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HelloWorldViewController.swift
 //  HelloWorld
 //
 //  Created by Marcello Chuahy on 19/08/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HelloWorldViewController: UIViewController {
     
     // MARK: - Properties
     
@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateUI()
     }
 
     // MARK: - Methods
